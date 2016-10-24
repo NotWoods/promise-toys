@@ -9,7 +9,6 @@ export default function props(object) {
 	const entries = keys.map(key => object[key]);
 	return Promise.all(entries)
 		.then(values => values.reduce((result, value, i) => {
-			/* eslint-disable no-param-reassign */
 			result[keys[i]] = value;
 			return result;
 		}));

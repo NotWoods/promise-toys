@@ -6,6 +6,8 @@
       - warn
       - tab
     no-tabs: off
+    no-restricted-syntax: off
     linebreak-style: off
     import/named: error
     import/default: error
+    no-param-reassign: off
