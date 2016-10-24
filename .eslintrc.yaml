@@ -1,0 +1,11 @@
+---
+  extends: airbnb-base
+  rules:
+    import/extensions: off
+    indent:
+      - warn
+      - tab
+    no-tabs: off
+    linebreak-style: off
+    import/named: error
+    import/default: error

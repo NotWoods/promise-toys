@@ -1,0 +1,30 @@
+{
+  "name": "promise-toys",
+  "version": "1.0.0",
+  "description": "Utility functions for Promises",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "browser": "dist/index.iife.js",
+  "author": "Tiger Oakes <tigeroakes@gmail.com> (http://tigeroakes.com)",
+  "repository": "NotWoods/promise-toys",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "jsdoc-to-markdown": "^2.0.1",
+    "rollup": "^0.36.3",
+    "tape": "^4.6.2"
+  },
+  "scripts": {
+    "prepare": "rollup -c",
+    "lint": "eslint src/**",
+    "docs": "yarn run prepare && jsdoc2md -f dist/index.es.js > API.md"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
