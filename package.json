@@ -13,7 +13,7 @@
     "eslint-config-airbnb-base": "^9.0.0",
     "eslint-plugin-import": "^2.0.1",
     "jsdoc-to-markdown": "^2.0.1",
-    "rollup": "^0.36.3",
+    "rollup": "^0.67.4",
     "tape": "^4.6.2"
   },
   "scripts": {
