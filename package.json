@@ -14,7 +14,7 @@
     "eslint-plugin-import": "^2.0.1",
     "jsdoc-to-markdown": "^2.0.1",
     "rollup": "^0.36.3",
-    "tape": "^4.6.2"
+    "tape": "^4.9.1"
   },
   "scripts": {
     "prepare": "rollup -c",
