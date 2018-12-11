@@ -12,7 +12,7 @@
     "eslint": "^3.8.1",
     "eslint-config-airbnb-base": "^9.0.0",
     "eslint-plugin-import": "^2.0.1",
-    "jsdoc-to-markdown": "^2.0.1",
+    "jsdoc-to-markdown": "^4.0.1",
     "rollup": "^0.36.3",
     "tape": "^4.6.2"
   },
