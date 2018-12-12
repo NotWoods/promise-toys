@@ -1,7 +1,9 @@
 # promise-toys
 Utility functions for Promises
 
-## APi
+**Deprecated**. Use [async functions](https://developers.google.com/web/fundamentals/primers/async-functions) instead.
+
+## API
 See [API.md](API.md)
 
 ## Installation
